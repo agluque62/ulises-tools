@@ -1,0 +1,417 @@
+[
+  {
+    "Fichero": "u-boot",
+    "EXT": "bin",
+    "MOD": 0
+  },
+  {
+    "Fichero": "uImage",
+    "EXT": "",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "nucleopsrla",
+    "EXT": "",
+    "MOD": 2
+  },
+  {
+    "Fichero": "rclcen",
+    "EXT": "",
+    "MOD": 2
+  },
+  {
+    "Fichero": "rcr2n5",
+    "EXT": "",
+    "MOD": 2
+  },
+  {
+    "Fichero": "rcradio",
+    "EXT": "",
+    "MOD": 2
+  },
+  {
+    "Fichero": "rctlf",
+    "EXT": "",
+    "MOD": 2
+  },
+  {
+    "Fichero": "servdsp",
+    "EXT": "",
+    "MOD": 2
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "82xx_spi",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "eeprom",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "esdiscretas",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "hpidsp",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "mtifm",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "pcm",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "risctimers",
+    "EXT": "o",
+    "MOD": 3
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "cgw6747",
+    "EXT": "bin",
+    "MOD": 4
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "libeXosip2.so",
+    "EXT": 6,
+    "MOD": 0
+  },
+  {
+    "Fichero": "libosip2.so",
+    "EXT": 6,
+    "MOD": 0
+  },
+  {
+    "Fichero": "libosipparser2.so",
+    "EXT": 6,
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "uvki-gwser",
+    "EXT": "",
+    "MOD": 1
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "ug5ksnmp",
+    "EXT": "",
+    "MOD": 1
+  },
+  {
+    "Fichero": "libagent++",
+    "EXT": "so",
+    "MOD": 0
+  },
+  {
+    "Fichero": "libdes",
+    "EXT": "so",
+    "MOD": 0
+  },
+  {
+    "Fichero": "libsnmp++",
+    "EXT": "so",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ndf.ug5k.137b5-redan-v51",
+    "EXT": "mib",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "ug5krec",
+    "EXT": "",
+    "MOD": 1
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "configUlises",
+    "EXT": "json",
+    "MOD": 0
+  },
+  {
+    "Fichero": "app",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "authentication",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "configurations",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "externalResources",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "gateways",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "get_cfg_report",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "hardware",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "historics",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "jsonTemplate",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "loggingDate",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "radioDestinations",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "resources",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "services",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "sites",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "tableBss",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ug5kdb",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "users",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "version",
+    "EXT": "js",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "ANALISIS HISTORICOS PASARELA REDAN",
+    "EXT": "xlsx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "MySQLBackupLibrary",
+    "EXT": "dll",
+    "MOD": 0
+  },
+  {
+    "Fichero": "UG5KDbBackupService",
+    "EXT": "exe",
+    "MOD": 0
+  },
+  {
+    "Fichero": "Ug5kDbBackupServiceSetup",
+    "EXT": "msi",
+    "MOD": 0
+  },
+  {
+    "Fichero": "Ug5kDbRestoreApp",
+    "EXT": "exe",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "RCSGestion",
+    "EXT": "exe",
+    "MOD": 0
+  },
+  {
+    "Fichero": "TalosBase",
+    "EXT": "dll",
+    "MOD": 0
+  },
+  {
+    "Fichero": "libgestor",
+    "EXT": "dll",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "COPYING",
+    "EXT": "txt",
+    "MOD": 0
+  },
+  {
+    "Fichero": "COPYING.AUTHORIZATION",
+    "EXT": "txt",
+    "MOD": 0
+  },
+  {
+    "Fichero": "COPYING.LESSER",
+    "EXT": "txt",
+    "MOD": 0
+  },
+  {
+    "Fichero": "LICENCIAS DE C%uFFFDDIGO ABIERTO",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Descripcion General",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Guia de Instalacion Software",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Sistema de Gesti%uFFFDn y Supervisi%uFFFDn",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "Manual usuario an%uFFFDlisis hist%uFFFDricos",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Cambio de IP. Manual de usuario",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Configuracion Local. Manual de Usuario",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Configuracion Remota. Manual de Usuario",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. RCS 2010. Manual de Usuario",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Servidores en Principal-Reserva. Manual de Usuario",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "",
+    "EXT": "",
+    "MOD": ""
+  },
+  {
+    "Fichero": "20161207.CVP15001. REDAN-V. Verificacion GW-Unificada. PP-00",
+    "EXT": "docx",
+    "MOD": 0
+  },
+  {
+    "Fichero": "ULISES G 5000-REDAN. Configuracion Remota. Protocolo de Pruebas",
+    "EXT": "docx",
+    "MOD": 0
+  }
+]
