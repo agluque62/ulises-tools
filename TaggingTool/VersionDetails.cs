@@ -12,7 +12,7 @@ using Newtonsoft.Json.Converters;
 using CsvHelper;
 
 
-namespace GenCCVData
+namespace TaggingTool
 {
     /// <summary>
     /// 

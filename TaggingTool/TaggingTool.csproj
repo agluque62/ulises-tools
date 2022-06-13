@@ -7,8 +7,8 @@
     <ProjectGuid>{33232684-B075-4C36-AF98-68FA57FDB6B1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenCCVData</RootNamespace>
-    <AssemblyName>tagtool</AssemblyName>
+    <RootNamespace>TaggingTool</RootNamespace>
+    <AssemblyName>TaggingTool</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

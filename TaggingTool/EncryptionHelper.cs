@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
 
-namespace GenCCVData
+namespace TaggingTool
 {
     class EncryptionHelper
     {
