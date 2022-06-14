@@ -160,5 +160,16 @@ namespace TaggingTool
                 }
             }
         }
+        public static string FileSHA256Hash(string filePath)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                using (var stream = System.IO.File.OpenRead(filePath))
+                {
+                    return BitConverter.ToString(sha256.ComputeHash(stream)).Replace("-", string.Empty);
+                }
+            }
+
+        }
     }
 }

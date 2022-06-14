@@ -14,15 +14,12 @@ using CsvHelper;
 
 namespace TaggingTool
 {
-    /// <summary>
-    /// 
-    /// </summary>
+    [Serializable]
+    public enum InputType { Json, Csv }
+    [Serializable]
+    public enum HashingModes { Md5, Sha256 }
     class VersionDetails
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        public enum InputType { Json, Csv }
         /// <summary>
         /// 
         /// </summary>
@@ -43,19 +40,21 @@ namespace TaggingTool
             public string Ext { get; set; }
             public string Size { get; set; }
             public string Fecha { get; set; }
-            public string MD5 { get; set; }
+            public string Hash { get; set; }
         }
         /// <summary>
         /// 
         /// </summary>
         List<Item2Search> Items2Search;
         List<ItemFound> ItemsFound = new List<ItemFound>();
+        HashingModes HashingMode { get; set; }
         /// <summary>
         /// 
         /// </summary>
         /// <param name="filepath"></param>
-        public VersionDetails(InputType input, string dirFrom, string filepath)
+        public VersionDetails(string dirFrom, string filepath, InputType input = InputType.Csv, HashingModes hashingMode= HashingModes.Md5)
         {
+            HashingMode = hashingMode;
             if (input == InputType.Json)
             {
                 Items2Search = JsonConvert.DeserializeObject<List<Item2Search>>(File.ReadAllText(@filepath))/*.
@@ -101,7 +100,7 @@ namespace TaggingTool
             sb.AppendFormat("Nombre;Ext;Tam;Fecha;MD{0}", Environment.NewLine);
             ItemsFound.ForEach(item =>
             {
-                sb.AppendFormat("{0};{1};{2};{3};{4}{5}", item.Nombre, item.Ext, item.Size, item.Fecha, item.MD5, Environment.NewLine);
+                sb.AppendFormat("{0};{1};{2};{3};{4}{5}", item.Nombre, item.Ext, item.Size, item.Fecha, item.Hash, Environment.NewLine);
             });
             return sb.ToString();
         }
@@ -130,7 +129,7 @@ namespace TaggingTool
                                 Ext = item.EXT,
                                 Size = fi.Length.ToString(),
                                 Fecha = DateOfFile(fi, item.MOD, item.REP),
-                                MD5 = EncryptionHelper.FileMd5Hash(found)
+                                Hash = GetHash(found)
                             });
                         }
                         else
@@ -178,7 +177,7 @@ namespace TaggingTool
                             Ext = item.EXT,
                             Size = fi.Length.ToString(),
                             Fecha = DateOfFile(fi, item.MOD, item.REP),
-                            MD5 = EncryptionHelper.FileMd5Hash(found)
+                            Hash = GetHash(found)
                         });
                     }
                     else
@@ -273,6 +272,12 @@ namespace TaggingTool
             //} while (--pos > 0);
 
             //return m.Success ? m.Value : "";
+        }
+        protected string GetHash(string fileName)
+        {
+            return HashingMode == HashingModes.Md5 ? EncryptionHelper.FileMd5Hash(fileName) :
+                HashingMode == HashingModes.Sha256 ? EncryptionHelper.FileSHA256Hash(fileName) :
+                "Error, método no soportado";
         }
     }
 }

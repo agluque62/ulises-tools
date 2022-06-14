@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TaggingTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InputType" Type="TaggingTool.InputType" Scope="Application">
+      <Value Profile="(Default)">Csv</Value>
+    </Setting>
+    <Setting Name="HashMode" Type="TaggingTool.HashingModes" Scope="Application">
+      <Value Profile="(Default)">Sha256</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
