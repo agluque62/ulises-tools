@@ -1,0 +1,7 @@
+<log4j:event logger="WIN32" level="INFO" timestamp="1657796265038" thread="23900">
+	<log4j:message>(14232)=>HistClient. TICK</log4j:message>
+	<log4j:properties>
+		<log4j:data name="log4japp" value="PLOG"/>
+		<log4j:data name="log4jmachinename" value="PLOG-M"/>
+	</log4j:properties>
+</log4j:event>
